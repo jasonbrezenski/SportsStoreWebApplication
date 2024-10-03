@@ -1,0 +1,22 @@
+@model Product
+
+<h2>Update @Model.ProductName</h2>
+
+@using (Html.BeginForm("UpdateProductToDatabase", "Product", "Post"))
+{
+    <input asp-for="ProductID" type="hidden" value="@Model.ProductID" />
+
+    <label asp-for="ProductName" class="control-label">Name</label>
+    <input type="text" name="ProductName" class="form-control" value="@Model.ProductName" />
+    
+    <label asp-for="Category" class="control-label">Category</label>
+    <input type="text" name="Category" class="form-control" value="@Model.Category" />
+
+    <label asp-for="Price" class="control-label">Price</label>    
+    <input type="number" step="0.01" name="Price" class="form-control" value="@Model.Price" />
+    
+    <label asp-for="Stock" class="control-label">Stock</label>    
+    <input type="number" step="1" name="Stock" class="form-control" value="@Model.Stock" />
+
+    <input type="submit" value="Update Product" class="btn btn-primary" />
+}
