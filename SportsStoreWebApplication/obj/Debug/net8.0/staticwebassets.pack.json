@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets/SportsStoreWebApplication.bundle.scp.css"
     },
     {
+      "Id": "/Users/jasonbrezenski/Desktop/repos/SportsStoreWebApplication/SportsStoreWebApplication/wwwroot/Assets/Images/Soccer Ball.jpeg",
+      "PackagePath": "staticwebassets/Assets/Images/Soccer Ball.jpeg"
+    },
+    {
+      "Id": "/Users/jasonbrezenski/Desktop/repos/SportsStoreWebApplication/SportsStoreWebApplication/wwwroot/Assets/Images/sports.png",
+      "PackagePath": "staticwebassets/Assets/Images/sports.png"
+    },
+    {
       "Id": "/Users/jasonbrezenski/Desktop/repos/SportsStoreWebApplication/SportsStoreWebApplication/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

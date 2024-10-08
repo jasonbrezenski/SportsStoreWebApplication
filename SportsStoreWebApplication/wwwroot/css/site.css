@@ -19,8 +19,26 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #20c997;
 }
 
 a{
   text-decoration: none;
+}
+
+#sportsImage {
+  height: 500px;
+}
+
+.main-header {
+  font-size: 80px;
+}
+
+.sub-header {
+  font-size: 40px;
+  color: rgb(73, 73, 73);
+}
+
+.btn-secondary-size {
+  width: 180px;
 }
